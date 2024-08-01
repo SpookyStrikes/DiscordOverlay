@@ -32,10 +32,6 @@ img.Voice_avatar__htiqH {
     float: none;
     margin: 0;
     border: none;
-    li:Voice_voiceState__OCoZhdata-userid='188642874320093184' > img.Voice_avatar__htiqH {
-    content:url("https://cdn.discordapp.com/attachments/390441169970003969/1268402328948441129/Spooky_Token.png?ex=66ac4b38&is=66aaf9b8&hm=8b4bb7da73ae7c207e96d3e672d27a42a5305fa7e559da25090de77b0634e8f9&"); }
-    
-
 }
 
 /* profile pic when speaking */
@@ -84,3 +80,14 @@ span.Voice_name__TALd9 {
         transform: translateY(-2px);
     }
 }
+
+
+li.Voice_voiceState__OCoZh:nth-child(1).data-userid='188642874320093184' > img.Voice_avatar__htiqH {
+/*    li:([data-userid='188642874320093184']) > img.Voice_avatar__htiqH { */
+       content:url("https://cdn.discordapp.com/attachments/390441169970003969/1268402328948441129/Spooky_Token.png?ex=66ac4b38&is=66aaf9b8&hm=8b4bb7da73ae7c207e96d3e672d27a42a5305fa7e559da25090de77b0634e8f9&");
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
+    /*background-color: #1AFFA7;*/
+}
+
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
