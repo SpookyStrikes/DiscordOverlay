@@ -1,0 +1,86 @@
+/* list of people */
+ul.Voice_voiceStates__a121W {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+}
+
+/* profile */
+li.Voice_voiceState__OCoZh {
+    height: unset;
+    border-radius: 4px;
+    overflow: hidden;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: none;
+    background: none;
+
+}
+
+/* profile pic */
+img.Voice_avatar__htiqH {
+    border-radius: 0;
+    height: 100px;
+    width: 100px;
+    float: none;
+    margin: 0;
+    border: none;
+    li:Voice_voiceState__OCoZhdata-userid='188642874320093184' > img.Voice_avatar__htiqH {
+    content:url("https://cdn.discordapp.com/attachments/390441169970003969/1268402328948441129/Spooky_Token.png?ex=66ac4b38&is=66aaf9b8&hm=8b4bb7da73ae7c207e96d3e672d27a42a5305fa7e559da25090de77b0634e8f9&"); }
+    
+
+}
+
+/* profile pic when speaking */
+img.Voice_avatarSpeaking__lE\+4m {
+    animation: 0.1s infinite ease-in-out alternate-reverse talking;
+    background-image: none !important;
+}
+
+/* profile name div */
+div.Voice_user__8fGwX {
+    padding: 0;
+    min-height: 50px;
+    width: fit-content;
+    content::test;
+}
+
+/* profile name span */
+span.Voice_name__TALd9 {
+    border-radius: 0;
+    padding: 8px;
+    width: fit-content;
+    display: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    box-sizing: border-box;
+    word-break: keep-all;
+    font-family: Draconis, regular;
+    font-size: 50px !important;
+    color: #FFFFFF !important;
+    background-color: unset !important;
+}
+
+
+/* talking animation */
+@keyframes talking {
+    0% {
+        transform: translateY(2px);
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
+}
