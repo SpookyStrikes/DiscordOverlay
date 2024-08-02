@@ -53,7 +53,7 @@ span.Voice_name__TALd9 {
     border-radius: 0;
     padding: 8px;
     width: fit-content;
-    display: flex-start;
+    display: flex;
     justify-content: flex-start;
     text-align: left;
     box-sizing: border-box;
