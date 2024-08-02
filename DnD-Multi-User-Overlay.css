@@ -81,12 +81,11 @@ span.Voice_name__TALd9 {
     }
 }
 
-/* Setting Child Properties */
-li.Voice_voiceState__OCoZh:nth-child(1).data-userid='188642874320093184' > img.Voice_avatar__htiqH {
-/*    li:([data-userid='188642874320093184']) > img.Voice_avatar__htiqH { */
+/* Customising to a specific member */
+/* li.target(Voice_voiceState__OCoZh:nth-child(data-userid='188642874320093184')) > img.Voice_avatar__htiqH { */
+li.Voice_voiceState__OCoZh:nth-child(n-8) {
+    [data-userid='188642874320093184']} > img.Voice_avatar__htiqH {
        content:url("https://cdn.discordapp.com/attachments/390441169970003969/1268402328948441129/Spooky_Token.png?ex=66ac4b38&is=66aaf9b8&hm=8b4bb7da73ae7c207e96d3e672d27a42a5305fa7e559da25090de77b0634e8f9&");
-    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
-    /*background-color: #1AFFA7;*/
 }
 
 
