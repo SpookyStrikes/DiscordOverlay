@@ -14,13 +14,9 @@ img[class*="avatarSpeaking"] {
 }
 
 /*Name*/
-.Voice_voiceState__OCoZh is_widget_owner voice_state[data-userid*="188642874320093184"] .Voice_user__8fGwX voice_username.Voice_name__TALd9:before >test< {
-   /* innerText: "Game Master";
-    innerHTML: "Game Master";
-    outerText: "Game Master";
-    outerHTML: "Game Master";
-    TextContent: "Game Master"; */
-}
+/* .Voice_voiceState__OCoZh is_widget_owner voice_state[data-userid*="188642874320093184"] .Voice_user__8fGwX voice_username.Voice_name__TALd9:before >test< {
+    TextContent: "Game Master"; 
+}*/
 
 
 /*Flex Set*/ 
@@ -48,28 +44,15 @@ img[class*="avatar"] { width:100%; height:auto; border:0; border-radius:0; margi
 /*Speaking CSS*/ 
 img[class*="avatarSpeaking"] { position:relative; animation:speak-now 0.2s; filter:brightness(95%); 
 }
-div.class = Namebox {
+/* div class = "Namebox" {
     padding: 0;
     height: fit-content;
     width: fit-content;
+    position: absolute;
+    top: 5px;
     left: 160px;
+} */
 }
-}
-span.Username {
-    border-radius: 0;
-    padding: 8px;
-    width: fit-content;
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
-    box-sizing: border-box;
-    word-break: keep-all;
-    font-family: Draconis, regular;
-    font-size: 50px !important;
-    color: #FFFFFF !important;
-    background-color: unset !important;
-}
-
 
 /* profile name div */
 /*div.Voice_user__8fGwX {
@@ -100,5 +83,24 @@ span.Username {
 
 /*Animation*/ 
 @keyframes speak-now { 50%{ bottom:3px; } }
+
+.namebox::after {
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 5px;
+    left: 160px;
+}
+ span.username {
+    text-align: left;
+    box-sizing: border-box;
+    word-break: keep-all;
+    font-family: Draconis, regular;
+    content: "Spooky";
+    font-size: 50px !important;
+    color: #FFFFFF !important;
+    background-color: unset !important;
+}
 
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
