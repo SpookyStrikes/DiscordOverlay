@@ -1,13 +1,28 @@
 /*User Check*/ 
-li:not([data-userid='188642874320093184']) { display:none; }
+li:not([data-userid='188642874320093184']) { 
+  display:none; 
+}
 
 /*Quiet Image*/ 
-img[class*="avatar"] { content:url("https://cdn.discordapp.com/attachments/390441169970003969/1268449107547131935/spooky_token_quiet.png?ex=66ac76c9&is=66ab2549&hm=11949ad940f18a602445ad82c3ef527db29e0283a2e5b90adc582a9eb024e4e3&"); 
+img[class*="avatar"] { 
+  content:url("https://cdn.discordapp.com/attachments/390441169970003969/1268449107547131935/spooky_token_quiet.png?ex=66ac76c9&is=66ab2549&hm=11949ad940f18a602445ad82c3ef527db29e0283a2e5b90adc582a9eb024e4e3&"); 
 }
 
 /*Speaking Image*/ 
-img[class*="avatarSpeaking"] { content:url("https://cdn.discordapp.com/attachments/390441169970003969/1268402328948441129/Spooky_Token.png?ex=66ac4b38&is=66aaf9b8&hm=8b4bb7da73ae7c207e96d3e672d27a42a5305fa7e559da25090de77b0634e8f9&");
+img[class*="avatarSpeaking"] { 
+  content:url("https://cdn.discordapp.com/attachments/390441169970003969/1268402328948441129/Spooky_Token.png?ex=66ac4b38&is=66aaf9b8&hm=8b4bb7da73ae7c207e96d3e672d27a42a5305fa7e559da25090de77b0634e8f9&");
 }
+
+/*Name*/
+.Voice_voiceState__OCoZh is_widget_owner voice_state[data-userid*="188642874320093184"] .Voice_user__8fGwX voice_username.Voice_name__TALd9:before >test< {
+   /* innerText: "Game Master";
+    innerHTML: "Game Master";
+    outerText: "Game Master";
+    outerHTML: "Game Master";
+    TextContent: "Game Master"; */
+}
+
+
 /*Flex Set*/ 
 html, body, img, div, span, ul, li { 
 
@@ -33,16 +48,14 @@ img[class*="avatar"] { width:100%; height:auto; border:0; border-radius:0; margi
 /*Speaking CSS*/ 
 img[class*="avatarSpeaking"] { position:relative; animation:speak-now 0.2s; filter:brightness(95%); 
 }
-
-/* profile name div */
-div.Voice_user__8fGwX {
+div.class = Namebox {
     padding: 0;
-    min-height: 50px;
+    height: fit-content;
     width: fit-content;
+    left: 160px;
 }
-
-/* profile name span */
-span.Voice_name__TALd9 {
+}
+span.Username {
     border-radius: 0;
     padding: 8px;
     width: fit-content;
@@ -56,6 +69,35 @@ span.Voice_name__TALd9 {
     color: #FFFFFF !important;
     background-color: unset !important;
 }
+
+
+/* profile name div */
+/*div.Voice_user__8fGwX {
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 5px;
+    left: 160px;
+}
+
+/* profile name span */
+/*span.Voice_name__TALd9 {
+    border-radius: 0;
+    padding: 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    box-sizing: border-box;
+    word-break: keep-all;
+    font-family: Draconis, regular;
+    font-size: 50px !important;
+    color: #FFFFFF !important;
+    background-color: unset !important;
+}*/
+
+
 /*Animation*/ 
 @keyframes speak-now { 50%{ bottom:3px; } }
 
