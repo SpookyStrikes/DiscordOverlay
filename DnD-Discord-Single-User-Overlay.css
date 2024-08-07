@@ -27,9 +27,21 @@ ul[class*="voiceStates"] { padding-inline:0; margin-block:0; margin-top: 5px; }
 /*List Item CSS*/ 
 li[class*="voiceState"] { flex-direction:column; align-items:center; margin:0; height:unset; }
 /*Avatar CSS*/ 
-img[class*="avatar"] { width:100%; height:auto; border:0; border-radius:0; margin:0; float:unset; filter:brightness(50%); transition: all 0.2s ease-in-out; }
+img[class*="avatar"] { width:100%; height:auto; border:0; border-radius:0; margin:0; float:unset; filter:brightness(50%); transition: all 0.2s ease-in-out; 
+}
+
 /*Speaking CSS*/ 
-img[class*="avatarSpeaking"] { position:relative; animation:speak-now 0.2s; filter:brightness(95%); }
+img[class*="avatarSpeaking"] { position:relative; animation:speak-now 0.2s; filter:brightness(95%); 
+}
+
+/* profile name div */
+div.Voice_user__8fGwX {
+    padding: 0;
+    min-height: 50px;
+    width: fit-content;
+}
+
+/* profile name span */
 span.Voice_name__TALd9 {
     border-radius: 0;
     padding: 8px;
@@ -43,7 +55,6 @@ span.Voice_name__TALd9 {
     font-size: 50px !important;
     color: #FFFFFF !important;
     background-color: unset !important;
-   >Testing<
 }
 /*Animation*/ 
 @keyframes speak-now { 50%{ bottom:3px; } }
